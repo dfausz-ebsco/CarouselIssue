@@ -1,0 +1,14 @@
+﻿ <?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:test="clr-namespace:TestCarousel"
+             x:DataType="test:MainViewModel"
+             x:Class="TestCarousel.MainPage">
+    <CarouselView ItemsSource="{Binding CarouselItems}">
+        <CarouselView.ItemTemplate>
+            <DataTemplate x:DataType="x:Int16">
+                <Image Source="dotnet_bot.png" />
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+    </CarouselView>
+</ContentPage>
