@@ -11,8 +11,8 @@ This is what it looks like when the app is run, the picture is the first item in
 
 The issue is that there is inconsistent behevior when changing the orientatino of the device, the CarouselView seems to be stuck inbetween two items. After reaching this state you can swipe to change the CarouselView's selected element and the placement that it rests on will be correct.
 
-![Screenshot_20240322-152802](https://github.com/dfausz-ebsco/CarouselIssue/assets/164557428/0745b33b-025b-4e27-916b-6f1ca1713cd7)
+![Screenshot_20240322-153520](https://github.com/dfausz-ebsco/CarouselIssue/assets/164557428/aeef6c3e-e796-45a2-a66a-d05502132218)
 
 However, if you do swipe and change the CarouselView after encountering the issue in landscape mode, when you rotate the device back to portrait, the selected image will be slightly off center similar to the issue above but not as skewed. If you swipe to change the CarouselView in this state it will again correct itself.
 
-![Screenshot_20240322-153520](https://github.com/dfausz-ebsco/CarouselIssue/assets/164557428/aeef6c3e-e796-45a2-a66a-d05502132218)
+![Screenshot_20240322-152802](https://github.com/dfausz-ebsco/CarouselIssue/assets/164557428/0745b33b-025b-4e27-916b-6f1ca1713cd7)
